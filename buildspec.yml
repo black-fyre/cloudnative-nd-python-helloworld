@@ -7,8 +7,9 @@ phases:
     commands:
       - pip install -r requirements.txt
   build:
-    - echo Running unit tests in pytest
-    - pytest --junitxml=./pytest-reports/unit-test-reports.xml
+    commands:
+      - echo Running unit tests in pytest and generating test reports
+      - pytest --junitxml=./pytest-reports/unit-test-reports.xml
   reports:
     PytestReports:
       files:
