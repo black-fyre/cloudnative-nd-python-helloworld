@@ -14,5 +14,5 @@ reports:
   PytestReports:
     files:
         -'**/*'
-    base-directory: /pytest-reports
+    base-directory: pytest-reports
 
