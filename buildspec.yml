@@ -10,9 +10,9 @@ phases:
     commands:
       - echo Running unit tests in pytest and generating test reports
       - pytest --junitxml=./pytest-reports/unit-test-reports.xml
-  reports:
-    PytestReports:
-      files:
+reports:
+  PytestReports:
+    files:
         -'**/*'
-      base-directory: target/pytest-reports
+    base-directory: target/pytest-reports
 
