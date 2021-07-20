@@ -1,2 +1,5 @@
 .idea
 env
+.pytest_cache
+pytest-reports
+__pycache__/*
