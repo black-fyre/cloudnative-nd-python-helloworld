@@ -13,6 +13,6 @@ phases:
 reports:
   PytestReports:
     files:
-        -'**/*'
+        - '**/*'
     base-directory: pytest-reports
 
